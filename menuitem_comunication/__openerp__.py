@@ -21,7 +21,7 @@
 ###############################################################################
 
 {
-    'name': 'Menuitem Administrator',
+    'name': 'Menuitem Comunication',
     'version': '0.1',
     'category': 'Statistic',
     'description': """
