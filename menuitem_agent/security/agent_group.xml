@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record id="group_menu_agent" model="res.groups">
+           <field name="category_id" ref="menuitem_base.show_menuitem_category" />
+           <field name="name">Agent menu</field>
+       </record>
+    </data>
+</openerp>
