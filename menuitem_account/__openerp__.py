@@ -35,7 +35,6 @@
     'depends': [
         'menuitem_base',
         'account',
-        'stock',
         ],
     'init_xml': [],
     'demo_xml': [],

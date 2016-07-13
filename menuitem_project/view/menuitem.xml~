@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <record model="ir.ui.menu" id="base.menu_mrp_root">
-          <field name="groups_id" eval="[(6,0,[ref('menuitem_base.show_menuitem_mrp')])]"/>
+          <field name="groups_id" eval="[(6,0,[ref('menuitem_base.show_menuitem_project')])]"/>
         </record>
     </data>
 </openerp>
