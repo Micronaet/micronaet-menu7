@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <menuitem name="Sales"
+        <!--<menuitem name="Sales"
             id="base.menu_base_partner"
             groups="menuitem_base.show_menuitem_sale"
             sequence="20"/>
@@ -16,7 +16,11 @@
             id="base.menu_administration"
             groups="menuitem_base.show_menuitem_admin,base.menu_administration"            
             sequence="500"
-            />
+            />-->
+
+        <record model="ir.ui.menu" id="base.menu_base_partner">
+          <field name="groups_id" eval="[(6,0,[ref('menuitem_base.show_menuitem_sale')])]"/>
+        </record>
  
     </data>
 </openerp>

@@ -21,24 +21,23 @@
 ###############################################################################
 
 {
-    'name': 'Menuitem Agent',
+    'name': 'Menuitem Administrator',
     'version': '0.1',
     'category': 'Statistic',
     'description': """
-        Create extra root menu for agent
-        Add group and give access menu-group
+        Module that create a list of standard group for show or hide
+        top / root menu   
+        Extra Account   
         """,
     'author': 'Micronaet s.r.l.',
     'website': 'http://www.micronaet.it',
     'license': 'AGPL-3',
     'depends': [
         'menuitem_base',
-        'sale',
         ],
     'init_xml': [],
     'demo_xml': [],
     'data': [
-        'security/agent_group.xml',
         'view/menuitem.xml',
         ],
     'active': False,

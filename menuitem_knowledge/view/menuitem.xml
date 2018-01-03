@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <menuitem name="Knowledge"
-            id="knowledge.menu_document"
-            groups="menuitem_base.show_menuitem_knowledge"
-            sequence="116"/>
+        <record model="ir.ui.menu" id="knowledge.menu_document">
+          <field name="groups_id" eval="[(6,0,[ref('menuitem_base.show_menuitem_knowledge')])]"/>
+        </record>
     </data>
 </openerp>
 

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <menuitem name="Warehouse"
-            id="stock.menu_stock_root"
-            groups="menuitem_base.show_menuitem_stock"
-            sequence="70"/>
-
+        <record model="ir.ui.menu" id="account.menu_finance">
+          <field name="groups_id" eval="[(6,0,[ref('menuitem_base.show_menuitem_accounting')])]"/>
+        </record>
     </data>
 </openerp>
 
