@@ -50,7 +50,7 @@
             <field name="res_model">res.partner</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
-            <field name="domain">[('user_id','=',uid),('customer','=',True),('is_company','=',True)]</field>
+            <field name="domain">[('customer','=',True),('is_company','=',True),('sql_customer_code','!=',False)]</field>
         </record>
 
         <!--Agent block-->
